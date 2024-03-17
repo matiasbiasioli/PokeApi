@@ -24,7 +24,6 @@ function mostrarTodo(poke) {
   } else if (pokemonId.length == 2) {
     pokemonId = "0" + pokemonId
   }
-
   pokeCard.innerHTML = `
   <div>
     <h2 class="pokeName">${poke.name}</h2>
